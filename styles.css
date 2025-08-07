@@ -1,0 +1,87 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background-color: #0077cc;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #005fa3;
+}
+
+.site-header h1 {
+  margin-bottom: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Button */
+.styled-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  border-top: 4px solid #0077cc;
+}
+
+/* Box Model Visualization (optional for learning) */
+.card,
+.site-header,
+.site-footer {
+  /* For understanding spacing visually */
+  outline: 1px dashed #999;
+}
